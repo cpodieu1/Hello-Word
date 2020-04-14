@@ -1,6 +1,5 @@
-# Hello-Word
-
 Terraform installation on linux
+
 
 sudo yum update -y
 
@@ -16,7 +15,9 @@ PATH=${PATH}:/<the path were you are>
   
 terraform -v
 
+
 CONFIGURE AWS PROFILE
+
 
 aws configure
 
@@ -27,14 +28,18 @@ AWS Secret Access Key [None]: <your secret key>
 Default region name [None]: <your region name>
   
 Default output format [None]: ENTER
+
   
  Run the terraform template
+ 
  
  terraform init
  terraform plan
  terraform apply
  
+ 
  Run the script
+ 
  
  ./code.sh
  
