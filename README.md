@@ -34,7 +34,9 @@ Default output format [None]: ENTER
  
  
  terraform init
+ 
  terraform plan
+ 
  terraform apply
  
  
